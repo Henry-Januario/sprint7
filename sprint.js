@@ -22,8 +22,10 @@ while (true) {
     }
 }
 
-//O método sort() ordena os elementos do array e retorna o próprio array, se orientando pela comparação dos parâmetros
+//O método sort() ordena os elementos do array e retorna o próprio array.
 const organiza = propriedades.sort ((a,b)=>{
+    //O sort() por padrão ordena de forma ascendente o valor UTF-16. 
+    //Essa linha serve para que não haja diferença na organização entre palavras com a letra maiúscula e minúscula, já que o valor UTF-16 de "A" = 65 e "a" = 97
     return a.localeCompare(b)
 })
 
