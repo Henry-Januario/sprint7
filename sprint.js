@@ -5,11 +5,13 @@ let propriedades = [];
 while (true) {
     
     const input = readlineSync.question('Insira uma propriedade CSS:');
- 
+    
     if (input.toUpperCase() === 'SAIR') {
         break;
     }
-    propriedades.push(input);
+    if (input != ''){
+        propriedades.push(input);
+    }
 }
 
 const organiza = propriedades.sort ((a,b)=>{
