@@ -18,18 +18,18 @@ uma em cada linha.
 
 <strong>➔ Exemplo:</strong>
 
-<strong>◆ Input:</strong>
-font-size
-background-color
-text-align
-border
-SAIR
+<strong>◆ Input:</strong> <br>
+font-size<br>
+background-color<br>
+text-align<br>
+border<br>
+SAIR<br>
 
-<strong>◆ Resultado:</strong>
-background-color
-border
-font-size
-text-align
+<strong>◆ Resultado:</strong><br>
+background-color<br>
+border<br>
+font-size<br>
+text-align<br>
 
 <h2>Tecnologias utilizadas:</h2>
 
